@@ -1840,6 +1840,11 @@ input, select, textarea {
 			position: relative;
 		}
 
+		.feature-list section.no-padding-border {
+			border: none;
+			padding-top: 0;
+		}
+
 		@media screen and (min-width: 981px) {
 
 			.feature-list > .row > :nth-child(-n + 2) > section {
@@ -2959,3 +2964,7 @@ input, select, textarea {
 						}
 
 	}
+
+.twenty-radius {
+	border-radius: 20px;
+}
